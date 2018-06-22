@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		E30B9D1E209084A3009F42D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D1D209084A3009F42D9 /* AppDelegate.swift */; };
-		E30B9D20209084A3009F42D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D1F209084A3009F42D9 /* ViewController.swift */; };
-		E30B9D23209084A3009F42D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30B9D21209084A3009F42D9 /* Main.storyboard */; };
+		E30B9D20209084A3009F42D9 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D1F209084A3009F42D9 /* MainTabBarVC.swift */; };
 		E30B9D25209084A3009F42D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30B9D24209084A3009F42D9 /* Assets.xcassets */; };
 		E30B9D28209084A3009F42D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30B9D26209084A3009F42D9 /* LaunchScreen.storyboard */; };
+		E30B9D302090897E009F42D9 /* MarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D2F2090897E009F42D9 /* MarketVC.swift */; };
+		E30B9D3220908990009F42D9 /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D3120908990009F42D9 /* TransactionsVC.swift */; };
+		E30B9D34209089A0009F42D9 /* ConvertorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D33209089A0009F42D9 /* ConvertorVC.swift */; };
+		E30B9D3820908FB0009F42D9 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D3720908FB0009F42D9 /* Anchor.swift */; };
+		E30B9D3A20908FE6009F42D9 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B9D3920908FE6009F42D9 /* StackView.swift */; };
+		E3141CE6209467F2008DAA57 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3141CE5209467F2008DAA57 /* MarketView.swift */; };
+		E3141CE820947834008DAA57 /* ConvertorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3141CE720947834008DAA57 /* ConvertorView.swift */; };
+		E3F62A4520918CE3008B5AA9 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F62A4420918CE3008B5AA9 /* Currency.swift */; };
+		E4DFDDD16F6694D299D475AD /* Pods_CoinTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD05CB5923F2A0AF0A12D5 /* Pods_CoinTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6588AFD7BDFF47670130B53C /* Pods-CoinTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinTracker/Pods-CoinTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		AEDD05CB5923F2A0AF0A12D5 /* Pods_CoinTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30B9D1A209084A3009F42D9 /* CoinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30B9D1D209084A3009F42D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E30B9D1F209084A3009F42D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E30B9D22209084A3009F42D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E30B9D1F209084A3009F42D9 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		E30B9D24209084A3009F42D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30B9D27209084A3009F42D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E30B9D29209084A3009F42D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30B9D2F2090897E009F42D9 /* MarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketVC.swift; sourceTree = "<group>"; };
+		E30B9D3120908990009F42D9 /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
+		E30B9D33209089A0009F42D9 /* ConvertorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertorVC.swift; sourceTree = "<group>"; };
+		E30B9D3720908FB0009F42D9 /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		E30B9D3920908FE6009F42D9 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		E3141CE5209467F2008DAA57 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		E3141CE720947834008DAA57 /* ConvertorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertorView.swift; sourceTree = "<group>"; };
+		E3F62A4420918CE3008B5AA9 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		EC2EA9E5B28DBC6309CF1501 /* Pods-CoinTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinTracker/Pods-CoinTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DFDDD16F6694D299D475AD /* Pods_CoinTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F36BC6EDB2C372D55A2BA60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD05CB5923F2A0AF0A12D5 /* Pods_CoinTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E30B9D11209084A3009F42D9 = {
 			isa = PBXGroup;
 			children = (
 				E30B9D1C209084A3009F42D9 /* CoinTracker */,
 				E30B9D1B209084A3009F42D9 /* Products */,
+				F4D4510180BC2743FA8F0AA9 /* Pods */,
+				7F36BC6EDB2C372D55A2BA60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,70 @@
 		E30B9D1C209084A3009F42D9 /* CoinTracker */ = {
 			isa = PBXGroup;
 			children = (
+				E30B9D3520908C61009F42D9 /* Resources */,
+				E30B9D3620908F0D009F42D9 /* Extensions */,
+				E3F62A4320918C90008B5AA9 /* Models */,
+				E3F62A4220918C8B008B5AA9 /* Views */,
+				E3F62A4120918C79008B5AA9 /* Controllers */,
+			);
+			path = CoinTracker;
+			sourceTree = "<group>";
+		};
+		E30B9D3520908C61009F42D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E30B9D1D209084A3009F42D9 /* AppDelegate.swift */,
-				E30B9D1F209084A3009F42D9 /* ViewController.swift */,
-				E30B9D21209084A3009F42D9 /* Main.storyboard */,
 				E30B9D24209084A3009F42D9 /* Assets.xcassets */,
 				E30B9D26209084A3009F42D9 /* LaunchScreen.storyboard */,
 				E30B9D29209084A3009F42D9 /* Info.plist */,
 			);
-			path = CoinTracker;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E30B9D3620908F0D009F42D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E30B9D3720908FB0009F42D9 /* Anchor.swift */,
+				E30B9D3920908FE6009F42D9 /* StackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3F62A4120918C79008B5AA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E30B9D1F209084A3009F42D9 /* MainTabBarVC.swift */,
+				E30B9D2F2090897E009F42D9 /* MarketVC.swift */,
+				E30B9D3120908990009F42D9 /* TransactionsVC.swift */,
+				E30B9D33209089A0009F42D9 /* ConvertorVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3F62A4220918C8B008B5AA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3141CE5209467F2008DAA57 /* MarketView.swift */,
+				E3141CE720947834008DAA57 /* ConvertorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3F62A4320918C90008B5AA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3F62A4420918CE3008B5AA9 /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D4510180BC2743FA8F0AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6588AFD7BDFF47670130B53C /* Pods-CoinTracker.debug.xcconfig */,
+				EC2EA9E5B28DBC6309CF1501 /* Pods-CoinTracker.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30B9D2C209084A3009F42D9 /* Build configuration list for PBXNativeTarget "CoinTracker" */;
 			buildPhases = (
+				0AB47B1FEF36243123E1CD98 /* [CP] Check Pods Manifest.lock */,
 				E30B9D16209084A3009F42D9 /* Sources */,
 				E30B9D17209084A3009F42D9 /* Frameworks */,
 				E30B9D18209084A3009F42D9 /* Resources */,
+				86FF5FCE08D280C660D51E03 /* [CP] Embed Pods Frameworks */,
+				F53104DDC6A603E95F4F5FCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +213,80 @@
 			files = (
 				E30B9D28209084A3009F42D9 /* LaunchScreen.storyboard in Resources */,
 				E30B9D25209084A3009F42D9 /* Assets.xcassets in Resources */,
-				E30B9D23209084A3009F42D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB47B1FEF36243123E1CD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86FF5FCE08D280C660D51E03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinTracker/Pods-CoinTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53104DDC6A603E95F4F5FCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinTracker/Pods-CoinTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E30B9D16209084A3009F42D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E30B9D20209084A3009F42D9 /* ViewController.swift in Sources */,
+				E30B9D302090897E009F42D9 /* MarketVC.swift in Sources */,
+				E30B9D3A20908FE6009F42D9 /* StackView.swift in Sources */,
+				E3141CE6209467F2008DAA57 /* MarketView.swift in Sources */,
+				E30B9D3220908990009F42D9 /* TransactionsVC.swift in Sources */,
+				E30B9D20209084A3009F42D9 /* MainTabBarVC.swift in Sources */,
+				E3F62A4520918CE3008B5AA9 /* Currency.swift in Sources */,
 				E30B9D1E209084A3009F42D9 /* AppDelegate.swift in Sources */,
+				E3141CE820947834008DAA57 /* ConvertorView.swift in Sources */,
+				E30B9D3820908FB0009F42D9 /* Anchor.swift in Sources */,
+				E30B9D34209089A0009F42D9 /* ConvertorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E30B9D21209084A3009F42D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E30B9D22209084A3009F42D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E30B9D26209084A3009F42D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,29 +407,33 @@
 		};
 		E30B9D2D209084A3009F42D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6588AFD7BDFF47670130B53C /* Pods-CoinTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoinTracker/Info.plist;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = "$(SRCROOT)/CoinTracker/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = moon.apps.CoinTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E30B9D2E209084A3009F42D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2EA9E5B28DBC6309CF1501 /* Pods-CoinTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoinTracker/Info.plist;
+				DEVELOPMENT_TEAM = ZX75ER273A;
+				INFOPLIST_FILE = "$(SRCROOT)/CoinTracker/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = moon.apps.CoinTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

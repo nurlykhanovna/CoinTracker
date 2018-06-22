@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CoinTracker
 //
-//  Created by Aibek Rakhim on 4/25/18.
+//  Created by Alima Seytkhan on 4/25/18.
 //  Copyright © 2018 Alima Moon. All rights reserved.
 //
 
@@ -13,9 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // for launching without storyboard
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if let window = self.window {
+            window.rootViewController = MainTabBarVC()
+            window.makeKeyAndVisible()
+        }
         return true
     }
 
